@@ -59,17 +59,17 @@ DeepArithmeticCoding/
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # This file
 │
-├── src/                       # Core modules (~350 LOC)
+├── src/                       # Core modules
 │   ├── __init__.py            # Lazy imports (TensorFlow optional)
 │   ├── utils.py               # Data analysis, plotting, seeding
 │   ├── data_generation.py     # Dataset creation (Gemini API integration)
 │   ├── model.py               # GRU architecture
 │   └── neural_compressor.py   # Compression/decompression engine
 │
-├── scripts/                   # Executable entry points (with CLI args)
+├── scripts/                   # Executable entry points
 │   ├── prepare_data.py        # Generate data + analysis + bucket suggestions
 │   ├── train.py               # Full training pipeline
-│   └── compress_test.py       # Compression testing (4 modes)
+│   └── compress_test.py       # Compression testing 
 │
 ├── Notebook/
 │   └── DAC_Development.ipynb  # Development notebook with results
