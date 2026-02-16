@@ -71,7 +71,7 @@ DeepArithmeticCoding/
 │   ├── train.py               # Full training pipeline
 │   └── compress_test.py       # Compression testing (4 modes)
 │
-├── Notebooks/
+├── Notebook/
 │   └── DAC_Development.ipynb  # Development notebook with results
 
 ```
