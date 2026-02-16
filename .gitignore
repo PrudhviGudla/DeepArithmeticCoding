@@ -1,0 +1,66 @@
+# Data
+data/*.txt
+*.pkl
+*.keras
+*.tflite
+*.bin
+*.cbor
+*.ae
+length_distribution_testing_dataset.png
+length_distribution_training_dataset.png
+length_distribution_validation_dataset.png
+
+files/
+
+# Weights and checkpoints
+training_checkpoints/
+best_model.keras
+gru_compressor.keras
+
+# Test outputs
+test/cbor/
+test/ac/
+
+# Environment & Secrets
+.env
+.env.local
+*.key
+
+# venv
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db

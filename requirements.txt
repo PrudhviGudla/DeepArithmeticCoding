@@ -1,0 +1,7 @@
+tensorflow
+numpy
+matplotlib
+seaborn
+google-generativeai
+cbor2
+python-dotenv
